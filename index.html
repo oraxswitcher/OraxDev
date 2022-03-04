@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style-left.css">
+    <link rel="stylesheet" href="./styles/style-right.css">
+    <link rel="stylesheet" href="./styles/responsive.css">
+
+    <!-- fonts -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <!-- fonts -->
+    <title>OraxDev</title>
+</head>
+<body>
+    <div class="loading">
+        <div class="loading-img">
+            <img src="/images/loading page/loading.png" alt="">
+            <h5>The page is loading ,Please wait....</h5>
+        </div>
+    </div>
+    <div class="burger-button" onclick="burger()">
+        <div class="line line1"></div>
+        <div class="line line2"></div>
+        <div class="line line3"></div>
+    </div>
+    <section class="section-left">
+        <div class="navigation">
+            <ul>
+                <li class="tab is-active">
+                    <a data-switcher data-tab="1" title="HOME" onclick="closeTabWhenClick()">
+                        <ion-icon name="home-outline" ></ion-icon>
+                        <span>HOME</span>
+                    </a>
+                </li>
+                <li class="tab">
+                    <a data-switcher data-tab="2" title="About me" onclick="closeTabWhenClick()">
+                        <ion-icon name="man-outline" ></ion-icon>
+                        <span>About me</span>
+                    </a>
+                </li>
+                <li class="tab">
+                    <a data-switcher data-tab="3" title="Resume" onclick="closeTabWhenClick()">
+                        <ion-icon name="newspaper-outline"></ion-icon>
+                        <span>Resume</span>
+                    </a>
+                </li>
+                <li class="tab">
+                    <a data-switcher data-tab="4" onclick="closeTabWhenClick()">
+                        <ion-icon name="briefcase-outline"></ion-icon>
+                        <span>Portfolio</span>
+                    </a>
+                </li>
+                <li class="tab">
+                    <a data-switcher data-tab="5" onclick="closeTabWhenClick()">
+                        <ion-icon name="mail-outline" title=""></ion-icon>
+                        <span>Contact</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="profile">
+            <div class="pic">
+                <img src="./images/orax1.jpg" alt="img err">
+            </div>
+            <div class="infos">
+                <span>Abderraouf Yahi</span>
+                <span>web developer</span>
+            </div>
+            <div class="social">
+                <a href="https://www.instagram.com/orax_switcher/" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
+                <a href="https://dz.linkedin.com/in/abderraouf-yahi-7348981aa" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
+                <a href="https://github.com/oraxswitcher" target="_blank"><ion-icon name="logo-github"></ion-icon></a>
+                <a href="https://www.behance.net/orax1518124" target="_blank"><ion-icon name="logo-behance"></ion-icon></a>
+            </div>
+            <div class="cv">
+                <a href="/images/1010687.jpg" download><button>Download CV</button></a>
+            </div>
+            <div class="copy">
+                <h6>&copy; 2022 All rights reserved</h6>
+            </div>
+        </div>
+    </section>
+    <section class="section-right">
+        <!-- -------------------------------------------------------------- Home Page -------------------------------------------------------- -->
+        <div class="page is-active" data-page="1">
+            <div class="home-page">
+                <h1>Orax Dev</h1>
+                <h2>I love and enjoy coding</h2>
+            </div>
+        </div>
+        <!-- -------------------------------------------------------------- About me Page ---------------------------------------------------- -->
+        <div class="page" data-page="2">
+                <div class="about">
+                    <div class="text">
+                        <h3>About <span>Me</span></h3>
+                        <p>HI,I'm abderraouf.Nice to meet you.<br>
+                        jumping to my self. i'm an algerian. i was born
+                        and raised in jijel.Jijel is famous for its mountains
+                        and beaches.
+                        i'm a guy who loves sports, specially swimming and free diving.<br>
+                        i'm a junior web developer and i'm at my first journey
+                        to the world of coding,i really can't wait to work with
+                        experienced programmers and learn from them.
+                        </p>
+                    </div>
+                    <div class="about-infos">
+                        <p><span>Age</span> &nbsp;&nbsp; 22</p>
+                        <p><span>Residence</span> &nbsp;&nbsp;Algeria</p>
+                        <p><span>Adress</span> &nbsp;&nbsp;Bouhnica belkacem,Taher</p>
+                        <p><span>E-mail</span> &nbsp;&nbsp;Contact.oraxdev@gmail.com</p>
+                        <p><span>Phone</span> &nbsp;&nbsp;+213549970579</p>
+                    </div>
+                </div>
+            <div class="learning">
+                <h2>What i'm trying to <span>learn</span></h2>
+            </div>
+            <div class="learning-grid">
+                <div class="learn">
+                    <ion-icon name="logo-react"></ion-icon>
+                    <h3>React</h3>
+                    <p>React is a very good fremework for front-end web developers and i took a look on how it works and i hope that i will start using it sooner.</p>
+                </div>
+                <div class="learn">
+                    <img class="logo-img" src="/images/photoshop.png" alt="photoshop">
+                    <h3>photoshop</h3>
+                    <p>As we all know photoshop is worldwide application that all people use so every wev developer should use ,i don't know much of it but i know the basics and i hope that i can handle working with it</p>
+                </div>
+                <div class="learn">
+                    <ion-icon name="logo-nodejs"></ion-icon>
+                    <h3>Node.js</h3>
+                    <p>Nodejs is a runtime environment and it is used for a lot of things and what important to us is that we use it in the back end of the website, i took a look how it works but i wanna master front-end development before jumping to be a fullstack web developer</p>
+                </div>
+                <div class="learn">
+                    <img class="logo-img" src="/images/mysql.png" alt="mysql">
+                    <h3>MySql</h3>
+                    <p>MySql is a database management system and of course we can't save our data from the website without a database</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- ------------------------------------------Resume Page ---------------------------------------------------------------------- -->
+        <div class="page" data-page="3">
+            <h2 class="title">Resume</h2>
+            <div class="edsk">
+                <div class="education">
+                        <h2 class="title1">Education</h2>
+                    <div class="edu">
+                        <div class="univ-year">
+                            <h3>2018</h3>
+                            <p>High school kimouche farhet - jijel</p>
+                        </div>
+                        <div class="univ-descreption">
+                            <h2>civil engineering</h2>
+                            <p>I graduated high school with baccalaureate degree of civil engineering</p>
+                        </div>
+                    </div>
+                    <div class="edu">
+                        <div class="univ-year">
+                            <h3>2019</h3>
+                            <p>University Mohamed Seddik Ben Yahia - jijel</p>
+                        </div>
+                        <div class="univ-descreption">
+                            <h2>math and computer science</h2>
+                            <p>I studied my first year the math and computer science and i was good at algorithms, i passed to the second year and i had to choose between math and computer science, i choose computer science of course , but the university forced me to go math because my placement was low and there is lot of people who choose computer science so i quit.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills">
+                    <div class="coding-skills">
+                        <h2 class="title2">Coding <span>skills</span></h2>
+                        <div class="skill-bar">
+                            <h4>HTML</h4>
+                            <p>85%</p>
+                            <div class="bar">
+                                <div class="slide"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar">
+                            <h4>CSS</h4>
+                            <p>87%</p>
+                            <div class="bar">
+                                <div class="slide"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar">
+                            <h4>JavaScipt</h4>
+                            <p>60%</p>
+                            <div class="bar">
+                                <div class="slide"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar">
+                            <h4>React</h4>
+                            <p>20%</p>
+                            <div class="bar">
+                                <div class="slide"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar">
+                            <h4>Node.js</h4>
+                            <p>5%</p>
+                            <div class="bar">
+                                <div class="slide"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar">
+                            <h4>MySql</h4>
+                            <p>5%</p>
+                            <div class="bar">
+                                <div class="slide"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- -------------------------------------------------certifications ----------------------------------- -->
+            <div class="certifications">
+                <h2>certifications</h2>
+                <div class="certs">
+                    <div class="cert">
+                        <a href="/images/my certificates/Udacity certificate.png" target="_blank" title="click to open"><img src="/images/my certificates/Udacity certificate.png" alt="Udacity certificate"></a>
+                        <div class="cert-info">
+                            <h4>Udacity certificate</h4>
+                            <p>Year of completion :<br> 2020</p>
+                        </div>
+                    </div>
+                    <div class="cert">
+                        <a href="/images/my certificates/freeCodeCamp certificate.png" target="_blank" title="click to open"><img src="/images/my certificates/freeCodeCamp certificate.png" alt="freeCodeCamp certificate"></a>
+                        <div class="cert-info">
+                            <h4>FreeCodeCamp<br> certificate</h4>
+                            <p>Year of completion :<br> 13/09/2020</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ----------------------------------------------------portfolio------------------------------------------------ -->
+        <div class="page " data-page="4">
+            <h2 class="title">Portfolio</h2>
+            <div class="list">
+                <ul>
+                    <a href="#"><li>All</li></a>
+                </ul>
+            </div>
+            <div class="projects">
+                <a href="https://www.behance.net/gallery/107975823/darel3ayla-project" target="_blank">
+                    <div class="project">
+                        <img src="/images/portfolio/darel3aila.png" alt="darel3aila">
+                        <h4 class="proj-title">Dar el 3ayla</h4>
+                        <p class="made">Made with:</p>
+                        <ul class="hashtags">
+                            <li><p>HTML</p></li>
+                            <li><p>CSS</p></li>
+                            <li><p>JS</p></li>
+                            <li><p>Responsive</p></li>
+                        </ul>
+                    </div>
+                </a>
+                <a href="https://www.behance.net/gallery/103100417/Pets4u" target="_blank">
+                    <div class="project">
+                        <img src="/images/portfolio/pets4u.png" alt="pets4u">
+                        <h4 class="proj-title">Pets4u</h4>
+                        <p class="made">Made with:</p>
+                        <ul class="hashtags">
+                            <li><p>HTML</p></li>
+                            <li><p>CSS</p></li>
+                        </ul>
+                    </div>
+                </a>
+                <a href="https://www.behance.net/gallery/101177279/simple-Audi-project" target="_blank">
+                    <div class="project">
+                        <img src="/images/portfolio/audi.png" alt="audi">
+                        <h4 class="proj-title">Audi</h4>
+                        <p class="made">Made with:</p>
+                        <ul class="hashtags">
+                            <li><p>HTML</p></li>
+                            <li><p>CSS</p></li>
+                            <li><p>JS</p></li> 
+                        </ul>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <!-- ----------------------------------------------------Contact------------------------------------------------------ -->
+        <div class="page " data-page="5">
+            <h2 class="title">Contact</h2>
+            <iframe class="map-location" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2072.289587105169!2d5.897495770328722!3d36.77280226504462!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12f25d2ce16fe6c5%3A0x1467284cc60e848b!2zMzbCsDQ2JzIzLjAiTiA1wrA1Myc0OS42IkU!5e0!3m2!1sen!2sdz!4v1645808989938!5m2!1sen!2sdz" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            <div class="the-form">
+                <div class="contact-social">
+                    <div class="social-container">
+                        <ion-icon name="location-outline"></ion-icon>
+                        <h5>Algeria<h5>
+                    </div>
+                    <div class="social-container">
+                        <ion-icon name="call-outline"></ion-icon>
+                        <h5>+213549970579<h5>
+                    </div>
+                    <div class="social-container">
+                        <ion-icon name="mail-outline"></ion-icon>
+                        <h5>Contact.oraxdev@gmail.com<h5>
+                    </div>
+                    <div class="social-container">
+                        <ion-icon name="checkmark-outline"></ion-icon>
+                        <h5>Hire me<h5>
+                    </div>
+                </div>
+                <div class="form-text">
+                    <h5>Leave me a <span>message</span></h5>
+                    <form action="https://formsubmit.co/contact.oraxdev@gmail.com" method="POST" class="email-form">
+                        <input type="text" name="full-name" placeholder="Full Name" required>
+                        <input type="email" name="Email" placeholder="Email" required>
+                        <input type="text" name="_subject" placeholder="Subject" required>
+                        <input type="hidden" name="_next" value="https://yourdomain.co/thanks.html">
+                        <textarea name="leave-something" cols="30" rows="10" placeholder="Write something" required></textarea>
+                        <button>Send message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="/js/app.js"></script>
+</body>
+</html>

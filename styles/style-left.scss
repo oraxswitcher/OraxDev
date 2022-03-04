@@ -1,0 +1,222 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    }
+body{
+    font-family: 'Noto Sans', sans-serif;
+    display: flex;
+    background-color: #252525;
+    color: #e9e9e9;
+    position: relative;
+
+}
+a{  
+    color: white;
+    text-decoration: none;
+}
+.page{
+    display: none; 
+    animation: loading2 1s ;
+}
+.page.is-active{
+    display: block;
+}
+
+@keyframes loading2 {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+// ---------left section -----------
+.section-left{
+    position: sticky;
+    top: 0;
+    width: 40%;
+    max-width: 539.6px;
+    height: 100vh;
+    background-color: #515050;
+    display: flex;
+}
+// ---------------------navigation -------------------------
+.navigation{
+    width: 100px;
+    background-color: #252525;
+    display: flex;
+
+
+    ul{
+        
+        li{
+            
+            a[data-switcher]{
+                
+                display: block;
+                width: 100px;
+                height: 100px;
+                padding: 20px;
+                border-bottom: 1px solid #808080;
+                cursor: pointer;
+
+                &:hover{
+                    color: #00b31e;
+                    transition: 0.3s ease;
+                }
+
+                ion-icon{
+                    font-size: 30px;
+                    margin: 0 auto;
+                    width: 100%;
+                }
+
+                span{
+                    font-size: 13px;
+                    display: flex;
+                    justify-content: center;
+                }
+
+            }
+        }
+    }
+}
+
+
+.navigation ul li.is-active a[data-switcher]{
+    color: #00b31e;
+}
+// --------------- Profile -----------------
+.profile{
+    width: 100%;
+    position: relative;
+
+    .pic{
+        margin-top: 20%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+        img{
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            border: 1px solid #ffffff;
+        }
+    }
+
+}
+
+// ----------- Profile Name----------------------
+.infos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    span{
+
+        &:nth-of-type(1){
+            margin-top: 20px;
+            font-family: 'Poppins', sans-serif;
+            font-weight: bold;
+            font-size: 30px;
+            color: #ffffff;
+        }
+        &:nth-of-type(2){
+            margin-top: 5px;
+            font-family: 'poppins',sans-serif;
+            font-weight: 200;
+            font-size: 25px;
+            color: #ffffff;
+        }
+    }
+}
+// ------------profile social media -----------------
+.social {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+
+    a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0px 10px;
+        height: 40px;
+        width: 40px;
+
+        &:hover{
+            background-color: #ffffff;
+            border-radius: 50%;
+        }
+        
+        ion-icon{
+            font-size: 30px;
+            transition: 0.5s ease;
+        }
+
+        &:nth-of-type(1):hover ion-icon{
+            color:  #bc2a8d;
+        }
+        &:nth-of-type(2):hover ion-icon{
+            color: #0e76a8;
+        }
+        &:nth-of-type(3):hover ion-icon{
+            color: #171515;
+        }
+        &:nth-of-type(4):hover ion-icon{
+            color:  #053eff;
+        }
+    }
+}
+
+
+
+// ------------ the CV ---------------------
+.cv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 0;
+
+    a{
+        border-radius: 40px;
+
+        &:hover{
+
+            button{
+                background-color: #ffffff;
+                color: #171515;
+            }
+        }
+
+        button{
+            cursor: pointer;
+            width: 200px;
+            height: 50px;
+            color: #ffffff;
+            background-color: #515050;
+            border: #ffffff 2px solid;
+            border-radius: 40px;
+            font-size: 18px;
+            font-family: 'poppins',sans-serif;
+            font-weight: 600;
+            transition: 0.2s ease;
+        
+        }
+    }
+} 
+// ---------------------------copy right--------------------------
+.profile{
+    .copy{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        bottom: 10px;
+
+    }
+}
