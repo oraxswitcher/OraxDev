@@ -31,7 +31,7 @@
 }
 
 .loading .loading-img img {
-  width: 10vw;
+  width: 15vw;
   -webkit-animation: rotation 2s infinite linear;
           animation: rotation 2s infinite linear;
 }
@@ -190,6 +190,12 @@
 }
 
 @media (min-width: 768px) and (max-width: 940px) and (orientation: landscape) {
+  .loading .loading-img img {
+    width: 15vw;
+  }
+  .loading .loading-img h5 {
+    font-size: 5vw;
+  }
   .navigation {
     top: 46vw;
     height: 291px;
@@ -233,6 +239,12 @@
 }
 
 @media (min-width: 592px) and (max-width: 767px) {
+  .loading .loading-img img {
+    width: 15vw;
+  }
+  .loading .loading-img h5 {
+    font-size: 5vw;
+  }
   .navigation {
     margin: 0px;
     top: 51vw;
@@ -277,6 +289,12 @@
 }
 
 @media (min-width: 481px) and (max-width: 591px) {
+  .loading .loading-img img {
+    width: 15vw;
+  }
+  .loading .loading-img h5 {
+    font-size: 5vw;
+  }
   .section-left {
     width: 100%;
     max-width: 9999px;
@@ -349,6 +367,12 @@
 }
 
 @media (min-width: 0px) and (max-width: 480px) {
+  .loading .loading-img img {
+    width: 15vw;
+  }
+  .loading .loading-img h5 {
+    font-size: 5vw;
+  }
   .section-left {
     width: 100%;
     max-width: 9999px;
