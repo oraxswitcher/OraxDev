@@ -316,12 +316,14 @@
                 <div class="form-text">
                     <h5>Leave me a <span>message</span></h5>
                     <form action="https://formsubmit.co/contact.oraxdev@gmail.com" method="POST" class="email-form">
-                        <input type="text" name="full-name" placeholder="Full Name" required>
-                        <input type="email" name="Email" placeholder="Email" required>
-                        <input type="text" name="_subject" placeholder="Subject" required>
+                        <input id="send-form" type="text" name="full-name" placeholder="Full Name" required>
+                        <input id="send-form" type="email" name="Email" placeholder="Email" required>
+                        <input id="send-form" type="text" name="_subject" placeholder="Subject" required>
                         <input type="hidden" name="_next" value="https://yourdomain.co/thanks.html">
-                        <textarea name="leave-something" cols="30" rows="10" placeholder="Write something" required></textarea>
-                        <button>Send message</button>
+                        <textarea id="send-form" name="leave-something" cols="30" rows="10" placeholder="Write something" required></textarea>
+                        <input type="hidden" name="_next" value="https://oraxswitcher.github.io/OraxDev/">
+                        <input type="hidden" name="_autoresponse" value="I got the message i'll take a look at it sooner, Thank you">
+                        <button id="submit-button">Send message</button>
                     </form>
                 </div>
             </div>

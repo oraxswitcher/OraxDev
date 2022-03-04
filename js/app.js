@@ -110,3 +110,15 @@ const closeTabWhenClick = ()=>{
     openSectionLeft.style.right = '-100%';
     return i=0;
 }
+
+
+
+// -----------button to send form -------------------
+const submitForm = document.querySelector("#send-form");
+
+submitForm.addEventListener('keypress', function (e) {
+    if (e.key === 'Enter') {
+        e.preventDefault();
+        document.getElementById("submit-button").click();
+    }
+});
