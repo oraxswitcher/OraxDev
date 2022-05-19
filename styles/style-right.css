@@ -277,27 +277,27 @@ li {
   width: 85%;
 }
 
-.skills .coding-skills .skill-bar:nth-of-type(2) .slide {
+.skills .coding-skills .skill-bar:nth-of-type(2) .bar .slide {
   width: 87%;
 }
 
-.skills .coding-skills .skill-bar:nth-of-type(3) .slide {
+.skills .coding-skills .skill-bar:nth-of-type(3) .bar .slide {
   width: 60%;
 }
 
-.skills .coding-skills .skill-bar:nth-of-type(4) .slide {
+.skills .coding-skills .skill-bar:nth-of-type(4) .bar .slide {
   width: 60%;
 }
 
-.skills .coding-skills .skill-bar:nth-of-type(5) .slide {
+.skills .coding-skills .skill-bar:nth-of-type(5) .bar .slide {
   width: 20%;
 }
 
-.skills .coding-skills .skill-bar:nth-of-type(6) .slide {
+.skills .coding-skills .skill-bar:nth-of-type(6) .bar .slide {
   width: 5%;
 }
 
-.skills .coding-skills .skill-bar:nth-of-type(7) .slide {
+.skills .coding-skills .skill-bar:nth-of-type(7) .bar .slide {
   width: 5%;
 }
 
