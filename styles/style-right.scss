@@ -248,32 +248,114 @@ li{
                     width: 0%;
                 }
             }
-            
+            // html
             &:nth-of-type(1) .bar .slide{
                 width: 85%;
             }
-
+            //css
             &:nth-of-type(2) .bar .slide{
                 width: 87%;
             }
+            //Javascript
+
             &:nth-of-type(3) .bar .slide{
                 width: 60%;
             }
+            //scss
+
             &:nth-of-type(4) .bar .slide{
-                width: 60%;
+                width: 70%;
             }
+            //react
+
             &:nth-of-type(5) .bar .slide{
-                width: 20%;
+                width: 55%;
             }
+            //node.js
+
             &:nth-of-type(6) .bar .slide{
                 width: 5%;
             }
+            //mySql
+
             &:nth-of-type(7) .bar .slide{
                 width: 5%;
             }
 
 
 
+            h4{
+                font-size: 12px;
+            }
+
+
+            p{
+                position: absolute;
+                top: 0px;
+                left: 71%;
+                font-size: 85%;
+            }
+
+
+            .bar{
+                position: relative;
+                border: 2px solid #00b31e;
+                border-radius: 20px;
+                width: 80%;
+                height: 10px;
+                background-color: none;
+
+                
+                
+                
+            }
+        }
+    }
+
+    // More skills styles ---------------------------
+    .coding-skills2{
+        margin-top: 50px;
+
+
+
+        .title3{
+            font-size: 30px;
+            margin-bottom: 55px;
+            span{
+                color: #00b31e;
+            }
+        }
+
+        .skill-bar{
+            margin-top: 10px;
+            position: relative;
+            
+            .bar .slide{
+                position: absolute;
+                top: 0;
+                height: 6px;
+                border: 1px solid #252525;
+                border-radius: 20px;
+                background-color: #00b31e;
+                animation: loading 5s ;
+            }
+            @keyframes loading {
+                0%{
+                    width: 0%;
+                }
+            }
+            
+            &:nth-of-type(1) .bar .slide{
+                width: 75%;
+            }
+
+            &:nth-of-type(2) .bar .slide{
+                width: 60%;
+            }
+            &:nth-of-type(3) .bar .slide{
+                width: 60%;
+            }
+            
             h4{
                 font-size: 12px;
             }

@@ -286,11 +286,11 @@ li {
 }
 
 .skills .coding-skills .skill-bar:nth-of-type(4) .bar .slide {
-  width: 60%;
+  width: 70%;
 }
 
 .skills .coding-skills .skill-bar:nth-of-type(5) .bar .slide {
-  width: 20%;
+  width: 55%;
 }
 
 .skills .coding-skills .skill-bar:nth-of-type(6) .bar .slide {
@@ -313,6 +313,73 @@ li {
 }
 
 .skills .coding-skills .skill-bar .bar {
+  position: relative;
+  border: 2px solid #00b31e;
+  border-radius: 20px;
+  width: 80%;
+  height: 10px;
+  background-color: none;
+}
+
+.skills .coding-skills2 {
+  margin-top: 50px;
+}
+
+.skills .coding-skills2 .title3 {
+  font-size: 30px;
+  margin-bottom: 55px;
+}
+
+.skills .coding-skills2 .title3 span {
+  color: #00b31e;
+}
+
+.skills .coding-skills2 .skill-bar {
+  margin-top: 10px;
+  position: relative;
+}
+
+.skills .coding-skills2 .skill-bar .bar .slide {
+  position: absolute;
+  top: 0;
+  height: 6px;
+  border: 1px solid #252525;
+  border-radius: 20px;
+  background-color: #00b31e;
+  -webkit-animation: loading 5s;
+          animation: loading 5s;
+}
+
+@keyframes loading {
+  0% {
+    width: 0%;
+  }
+}
+
+.skills .coding-skills2 .skill-bar:nth-of-type(1) .bar .slide {
+  width: 75%;
+}
+
+.skills .coding-skills2 .skill-bar:nth-of-type(2) .bar .slide {
+  width: 60%;
+}
+
+.skills .coding-skills2 .skill-bar:nth-of-type(3) .bar .slide {
+  width: 60%;
+}
+
+.skills .coding-skills2 .skill-bar h4 {
+  font-size: 12px;
+}
+
+.skills .coding-skills2 .skill-bar p {
+  position: absolute;
+  top: 0px;
+  left: 71%;
+  font-size: 85%;
+}
+
+.skills .coding-skills2 .skill-bar .bar {
   position: relative;
   border: 2px solid #00b31e;
   border-radius: 20px;
