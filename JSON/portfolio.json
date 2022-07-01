@@ -1,0 +1,52 @@
+{
+    "websites":[
+        {
+            "title":"Dar el 3ayla",
+            "img":"images/portfolio/darel3aila.png",
+            "link":"https://oraxswitcher.github.io/DarEl3ayla/",
+            "skills":[
+                {"skill":"HTML"},
+                {"skill":"CSS"},
+                {"skill":"JS"},
+                {"skill":"Responsive"}
+                ]
+        },
+        {
+            "title":"Simple calculator",
+            "img":"images/portfolio/React-calculator.png",
+            "link":"https://oraxswitcher.github.io/react-calculator-app",
+            "skills":[
+                {"skill":"React"},
+                {"skill":"SASS"}
+                ]
+        },
+        {
+            "title":"Weather app",
+            "img":"images/portfolio/React-weather.png",
+            "link":"https://oraxswitcher.github.io/react-weather-app",
+            "skills":[
+                {"skill":"React"},
+                {"skill":"SASS"}
+                ]
+        },
+        {
+            "title":"Pets4u",
+            "img":"images/portfolio/pets4u.png",
+            "link":"https://oraxswitcher.github.io/pets4u/",
+            "skills":[
+                {"skill":"HTML"},
+                {"skill":"CSS"}
+                ]
+        },
+        {
+            "title":"Audi",
+            "img":"images/portfolio/audi.png",
+            "link":"https://oraxswitcher.github.io/redsecAudi/",
+            "skills":[
+                {"skill":"HTML"},
+                {"skill":"CSS"},
+                {"skill":"JS"}
+            ]
+        }
+    ]
+}
