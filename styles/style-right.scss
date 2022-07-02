@@ -442,9 +442,19 @@ li{
 // -------------------------------------------------------------- portfolio ----------------------------------------------------
 
 .list{
-    display: flex;
     margin-left: 4%;
     margin-top: 70px;
+    .list__ul{
+        display: flex;
+        gap: 2%;
+        a{
+            color: #ffffff;
+          transition: .5s ;  
+          &:hover{
+            color: #00b31e;
+          }
+        }
+    }
 }
 
 

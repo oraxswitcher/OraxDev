@@ -1,8 +1,9 @@
 {
     "websites":[
         {
+            "id":1,
             "title":"Dar el 3ayla",
-            "img":"images/portfolio/darel3aila.png",
+            "img":"images/portfolio/websites/darel3aila.png",
             "link":"https://oraxswitcher.github.io/DarEl3ayla/",
             "skills":[
                 {"skill":"HTML"},
@@ -12,17 +13,19 @@
                 ]
         },
         {
+            "id":2,
             "title":"Simple calculator",
-            "img":"images/portfolio/React-calculator.png",
+            "img":"images/portfolio/websites/React-calculator.png",
             "link":"https://oraxswitcher.github.io/react-calculator-app",
             "skills":[
                 {"skill":"React"},
                 {"skill":"SASS"}
                 ]
         },
-        {
+        {   
+            "id":3,
             "title":"Weather app",
-            "img":"images/portfolio/React-weather.png",
+            "img":"images/portfolio/websites/React-weather.png",
             "link":"https://oraxswitcher.github.io/react-weather-app",
             "skills":[
                 {"skill":"React"},
@@ -30,8 +33,9 @@
                 ]
         },
         {
+            "id":4,
             "title":"Pets4u",
-            "img":"images/portfolio/pets4u.png",
+            "img":"images/portfolio/websites/pets4u.png",
             "link":"https://oraxswitcher.github.io/pets4u/",
             "skills":[
                 {"skill":"HTML"},
@@ -39,8 +43,9 @@
                 ]
         },
         {
+            "id":5,
             "title":"Audi",
-            "img":"images/portfolio/audi.png",
+            "img":"images/portfolio/websites/audi.png",
             "link":"https://oraxswitcher.github.io/redsecAudi/",
             "skills":[
                 {"skill":"HTML"},
@@ -48,5 +53,110 @@
                 {"skill":"JS"}
             ]
         }
+    ],
+    "photography":[
+        {
+            "id":1,
+            "title":"Water Tube",
+            "img":"images/portfolio/Photography/IMG-20220626-WA0001.jpg",
+            "link":"images/portfolio/Photography/IMG-20220626-WA0001.jpg",
+            "skills":[
+                {"skill":"Canon 6d mark 2"},
+                {"skill":"Photoshop"}
+            ]
+        },
+        {
+            "id":2,
+            "title":"Flower",
+            "img":"images/portfolio/Photography/IMG-20220626-WA0003.jpg",
+            "link":"images/portfolio/Photography/IMG-20220626-WA0003.jpg",
+            "skills":[
+                {"skill":"Canon 6d mark 2"},
+                {"skill":"Photoshop"}
+            ]
+        },
+        {
+            "id":3,
+            "title":"Beautiful Bird",
+            "img":"images/portfolio/Photography/IMG-20220626-WA0005.jpg",
+            "link":"images/portfolio/Photography/IMG-20220626-WA0005.jpg",
+            "skills":[
+                {"skill":"Canon 6d mark 2"},
+                {"skill":"Photoshop"}
+            ]
+        },
+        {
+            "id":4,
+            "title":"Sky behind building",
+            "img":"images/portfolio/Photography/IMG-20220626-WA0008.jpg",
+            "link":"images/portfolio/Photography/IMG-20220626-WA0008.jpg",
+            "skills":[
+                {"skill":"Canon 6d mark 2"},
+                {"skill":"Photoshop"}
+            ]
+        },
+        {
+            "id":5,
+            "title":"Cat Drinking",
+            "img":"images/portfolio/Photography/IMG-20220626-WA0009.jpg",
+            "link":"images/portfolio/Photography/IMG-20220626-WA0009.jpg",
+            "skills":[
+                {"skill":"Canon 6d mark 2"},
+                {"skill":"Photoshop"}
+            ]
+        },
+        {
+            "id":6,
+            "title":"Black Bird",
+            "img":"images/portfolio/Photography/IMG-20220626-WA0010.jpg",
+            "link":"images/portfolio/Photography/IMG-20220626-WA0010.jpg",
+            "skills":[
+                {"skill":"Canon 6d mark 2"},
+                {"skill":"Photoshop"}
+            ]
+        },
+        {
+            "id":7,
+            "title":"Green Grase",
+            "img":"images/portfolio/Photography/IMG-20220626-WA0011.jpg",
+            "link":"images/portfolio/Photography/IMG-20220626-WA0011.jpg",
+            "skills":[
+                {"skill":"Canon 6d mark 2"},
+                {"skill":"Photoshop"}
+            ]
+        },
+        {
+            "id":8,
+            "title":"Indian Thistle",
+            "img":"images/portfolio/Photography/IMG-20220626-WA0012.jpg",
+            "link":"images/portfolio/Photography/IMG-20220626-WA0012.jpg",
+            "skills":[
+                {"skill":"Canon 6d mark 2"},
+                {"skill":"Photoshop"}
+            ]
+        },
+        {
+            "id":9,
+            "title":"Flowers",
+            "img":"images/portfolio/Photography/IMG-20220626-WA0013.jpg",
+            "link":"images/portfolio/Photography/IMG-20220626-WA0013.jpg",
+            "skills":[
+                {"skill":"Canon 6d mark 2"},
+                {"skill":"Photoshop"}
+            ]
+        }
+    ],
+    "graphicDesign":[
+        {
+            "id":1,
+            "title":"Iphone Showcase",
+            "img":"images/portfolio/Graphic_design/IphoneDesign.jpg",
+            "link":"images/portfolio/Graphic_design/IphoneDesign.jpg",
+            "skills":[
+                {"skill":"Illustrator"}
+            ]
+        }
     ]
+    
+    
 }
