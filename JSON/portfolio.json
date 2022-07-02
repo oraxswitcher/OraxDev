@@ -3,7 +3,7 @@
         {
             "id":1,
             "title":"Dar el 3ayla",
-            "img":"images/portfolio/websites/darel3aila.png",
+            "img":"images/portfolio/Websites/darel3aila.png",
             "link":"https://oraxswitcher.github.io/DarEl3ayla/",
             "skills":[
                 {"skill":"HTML"},
@@ -15,7 +15,7 @@
         {
             "id":2,
             "title":"Simple calculator",
-            "img":"images/portfolio/websites/React-calculator.png",
+            "img":"images/portfolio/Websites/React-calculator.png",
             "link":"https://oraxswitcher.github.io/react-calculator-app",
             "skills":[
                 {"skill":"React"},
@@ -25,7 +25,7 @@
         {   
             "id":3,
             "title":"Weather app",
-            "img":"images/portfolio/websites/React-weather.png",
+            "img":"images/portfolio/Websites/React-weather.png",
             "link":"https://oraxswitcher.github.io/react-weather-app",
             "skills":[
                 {"skill":"React"},
@@ -35,7 +35,7 @@
         {
             "id":4,
             "title":"Pets4u",
-            "img":"images/portfolio/websites/pets4u.png",
+            "img":"images/portfolio/Websites/pets4u.png",
             "link":"https://oraxswitcher.github.io/pets4u/",
             "skills":[
                 {"skill":"HTML"},
@@ -45,7 +45,7 @@
         {
             "id":5,
             "title":"Audi",
-            "img":"images/portfolio/websites/audi.png",
+            "img":"images/portfolio/Websites/audi.png",
             "link":"https://oraxswitcher.github.io/redsecAudi/",
             "skills":[
                 {"skill":"HTML"},
