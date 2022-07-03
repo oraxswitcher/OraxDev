@@ -149,10 +149,40 @@
     "graphicDesign":[
         {
             "id":1,
+            "title":"Fashion poster",
+            "img":"images/portfolio/Graphic_design/fashionPoster.jpg",
+            "link":"images/portfolio/Graphic_design/fashionPoster.jpg",
+            "skills":[
+                {"skill":"Illustrator"},
+                {"skill":"Photoshop"}
+            ]
+        },
+        {
+            "id":2,
             "title":"Iphone Showcase",
             "img":"images/portfolio/Graphic_design/IphoneDesign.jpg",
             "link":"images/portfolio/Graphic_design/IphoneDesign.jpg",
             "skills":[
+                {"skill":"Illustrator"}
+            ]
+        },
+        {
+            "id":3,
+            "title":"Realestate",
+            "img":"images/portfolio/Graphic_design/realEstate.jpg",
+            "link":"images/portfolio/Graphic_design/realEstate.jpg",
+            "skills":[
+                {"skill":"Photoshop"},
+                {"skill":"Illustrator"}
+            ]
+        },
+        {
+            "id":4,
+            "title":"Digital marketing",
+            "img":"images/portfolio/Graphic_design/digitalMarketing.jpg",
+            "link":"images/portfolio/Graphic_design/digitalMarketing.jpg",
+            "skills":[
+                {"skill":"Photoshop"},
                 {"skill":"Illustrator"}
             ]
         }

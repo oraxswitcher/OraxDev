@@ -89,8 +89,8 @@ const btnGraphic = ()=>{
         projects.innerHTML =data.graphicDesign.map((get)=>{
 
             return (`<a href="${get.link}" target="_blank">
-                 <div class="project">
-                     <img src="${get.img}" alt="${get.title}">
+                 <div class="project" style="width: 113%;">
+                     <img style="height: 236px;" src="${get.img}" alt="${get.title}">
                      <h4 class="proj-title">${get.title}</h4>
                      <p class="made">Made with:</p>
                      <ul class="hashtags">
