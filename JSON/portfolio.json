@@ -185,6 +185,34 @@
                 {"skill":"Photoshop"},
                 {"skill":"Illustrator"}
             ]
+        },
+        {
+            "id":5,
+            "title":"Marketing",
+            "img":"images/portfolio/Graphic_design/Marketing.jpg",
+            "link":"images/portfolio/Graphic_design/Marketing.jpg",
+            "skills":[
+                {"skill":"Photoshop"},
+                {"skill":"Illustrator"}
+            ]
+        },
+        {
+            "id":6,
+            "title":"Logo",
+            "img":"images/portfolio/Graphic_design/Logo1.png",
+            "link":"images/portfolio/Graphic_design/Logo1.png",
+            "skills":[
+                {"skill":"Illustrator"}
+            ]
+        },
+        {
+            "id":7,
+            "title":"Logo",
+            "img":"images/portfolio/Graphic_design/Logo2.png",
+            "link":"images/portfolio/Graphic_design/Logo2.png",
+            "skills":[
+                {"skill":"Illustrator"}
+            ]
         }
     ]
     
